@@ -48,6 +48,13 @@ List<Collection> allCollections = [
       logo: 'assets/collections/icons/icon_nature.png'),
 ];
 
+class ProfileItem {
+  String name;
+  String image;
+
+  ProfileItem({required this.name, required this.image});
+}
+
 class Sound {
   String name;
   String image;
@@ -57,13 +64,6 @@ class Sound {
     required this.image,
     required this.length,
   });
-}
-
-class ProfileItem {
-  String name;
-  String image;
-
-  ProfileItem({required this.name, required this.image});
 }
 
 List<Sound> allSounds = [
